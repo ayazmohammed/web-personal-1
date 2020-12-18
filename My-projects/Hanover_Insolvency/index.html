@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' href='main.css'>
+    <link href="https://fonts.googleapis.com/css2?family=Halant:wght@500&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2ef22da9ee.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <div class="container">
+        <form  id="formCustomerDetails" method="POST">
+
+                <div class="question_wrapper" id="q1">
+                    <div class="question">
+                        <h1>How much debt do you have?</h1>
+                        <p>Roughly how much unsecured debts do you currently have?</p>
+                        <div class="answers">
+                            <div class="answerBox answer1" data-value="£5,000 - £10,000">£5,000 - £10,000</div>
+                            <div class="answerBox answer1" data-value="£10,000 - £15,000">£10,000 - £15,000</div>
+                            <div class="answerBox answer1" data-value="£15,000 - £20,000">£15,000 - £20,000</div>
+                            <div class="answerBox answer1" data-value="£20,000 - £30,000">£20,000 - £30,000</div>
+                            <div class="answerBox answer1" data-value="£30,000+">£30,000+</div>
+                        </div>
+                        <input type="hidden" id="q1_answer" name="q1_answer" >
+                        <div class="questionNumber">1/6</div>
+                    </div>
+                </div>
+
+                <div class="question_wrapper" id="q2">
+                    <div class="question">
+                        <h1>What’s Your Main Type Of Debt?</h1>
+                        <p>Please select your main type of debt.</p>
+                        <div class="answers">
+                            <div class="answerBox answer2" data-value="Car Finance">Car Finance</div>
+                            <div class="answerBox answer2" data-value="Catalogues">Catalogues</div>
+                            <div class="answerBox answer2" data-value="Credit Cards">Credit Cards</div>
+                            <div class="answerBox answer2" data-value="Loans">Loans</div>
+                            <div class="answerBox answer2" data-value="Pay Day Loans">Pay Day Loans</div>
+                            <div class="answerBox answer2" data-value="Personal Loans">Personal Loans</div>
+                            <div class="answerBox answer2" data-value="Phone Bills">Phone Bills</div>
+                            <div class="answerBox answer2" data-value="Store Cards">Store Cards</div>
+                            <div class="answerBox answer2" data-value="Other">Other</div>
+                        </div>
+                        <input type="hidden" id="q2_answer" name="q2_answer" >
+                        <div class="questionNumber">2/6</div>
+                    </div>
+                </div>
+
+                <div class="question_wrapper" id="q3">
+                    <div class="question">
+                        <h1>Are You Behind On Payments?</h1>
+                        <p>Millions of people struggle with debt. You’re not alone.</p>
+                        <div class="answers">
+                            <div class="answerBox answer3" data-value="Yes">Yes</div>
+                            <div class="answerBox answer3" data-value="No">No</div>
+                        </div>
+                        <input type="hidden" id="q3_answer" name="q3_answer" >
+                        <div class="questionNumber">3/6</div>
+                    </div>
+                </div>
+
+                <div class="question_wrapper" id="q4">
+                    <div class="question">
+                        <h1>How many debt do you have?</h1>
+                        <p>The number of different creditors you have…</p>
+                        <div class="answers">
+                            <div class="answerBox answer4" data-value="1-2">1-2</div>
+                            <div class="answerBox answer4" data-value="3-4">3-4</div>
+                            <div class="answerBox answer4" data-value="5+">5+</div>
+                        </div>
+                        <input type="hidden" id="q4_answer" name="q4_answer" >
+                        <div class="questionNumber">4/6</div>
+                    </div>
+                </div>
+
+                <div class="question_wrapper" id="q5">
+                    <div class="question">
+                        <h1>Which Country do you live in?</h1>
+                        <p>Our offer will vary depending on where you live.</p>
+                        <div class="answers">
+                            <div class="answerBox answer5" data-value="England">England</div>
+                            <div class="answerBox answer5" data-value="Northern Ireland">Northern Ireland</div>
+                            <div class="answerBox answer5" data-value="Scotland">Scotland</div>
+                            <div class="answerBox answer5" data-value="Wales">Wales</div>
+                        </div>
+                        <input type="hidden" id="q5_answer" name="q5_answer" >
+                        <div class="questionNumber">5/6</div>
+                    </div>
+                </div>
+
+                <!-- Thankyou after form -->
+                <div class="question_wrapper" id="successMessage">
+                    <div class="question">
+                        <h1>Congratulations, we have a solution for you!</h1>
+                        <p>Here’s what happens next…</p>
+
+                        <div class="greyBox">
+                             <div class="greyBoxHeading">What happens next?</div>
+
+                            <div class="willCallYouBox">We will call you from the phone number 0161 905 4764</div>
+                            <div class="greyBoxText">
+                                
+                                <p>Our financial specialists will be able to tell you exactly what options may be available once they have spoken to you more about your situation.</p>
+
+                                <p>They are here to help and offer free information based on your current circumstances.</p>
+                                
+                                <p>If you would like to talk sooner, you can call us on 
+                                    0161 905 4764 or get in touch via the contact page.</p>
+                            </div>
+                            
+
+                        </div>
+                       
+
+                        
+
+                    <!--div class="questionNumber">5/6</div> -->
+                    </div>
+                </div>
+
+                <div class="question_wrapper" id="q6">
+                    <div class="question">
+                        <h1>Congratulations, we have a solution for you!</h1>
+                        <p>Please enter your details to get your results…</p>
+                        
+
+                        <div class="formCustomerDetails">
+
+                                <div class="formBox">
+                                    <input type="text" placeholder="Your First Name*" id="firstName">
+                                    <i class="fas fa-check-circle"></i>
+                                    <i class="fas fa-exclamation-circle"></i>
+                                    <div class="errorMessage">Error message</div>
+                                </div>
+
+                                <div class="formBox">
+                                    <input type="text" placeholder="Your Last Name*" id="lastName">
+                                    <i class="fas fa-check-circle"></i>
+                                    <i class="fas fa-exclamation-circle"></i>
+                                    <div class="errorMessage">Error message</div>
+                                </div>
+
+                        
+                                <div class="formBox">
+                                    <input type="email" placeholder="Your Email Address*" id="eMail">
+                                    <i class="fas fa-check-circle"></i>
+                                    <i class="fas fa-exclamation-circle"></i>
+                                    <div class="errorMessage">Error message</div>
+                                </div>
+
+                                <div class="formBox">
+                                    <input type="tel" placeholder="Your Phone Number*" id="phoneNumber">
+                                    <i class="fas fa-check-circle"></i>
+                                    <i class="fas fa-exclamation-circle"></i>
+                                    <div class="errorMessage">Error message</div>
+                                </div>
+                        
+                                <div class="btn">
+                                    <input type="submit" value="Click to see your Results">
+                                </div>
+
+                                <div class="legal">By submitting the form you agree to be contacted by Hanover Insolvency Ltd or partners by email or phone and agree to our <a href="http://hanoverinsolvency.co.uk/privacy.pdf">Privacy Policy</a></div>
+                        </div>
+                                <div class="questionNumber">6/6</div>
+                    </div>
+                </div>
+        </form>
+
+                        
+
+        
+
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
