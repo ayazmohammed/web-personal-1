@@ -1,0 +1,32 @@
+[
+    {
+    "name" : "tom",
+    "gcse" : 3,
+    "overall" : "pass",
+    "bestgrade" : "english"
+    },
+    {
+    "name" : "luck",
+    "gcse" : 6,
+    "overall" : "pass",
+    "bestgrade" : [["english"], ["art"]]
+    },
+    {
+    "name" : "eddie",
+    "gcse" : 9,
+    "overall" : "pass",
+    "bestgrade" : "science"
+    },
+    {
+    "name" : "mark",
+    "gcse" : 1,
+    "overall" : "failed",
+    "bestgrade" : "p.e"
+    },
+    {
+    "name" : "jack",
+    "gcse" : 8,
+    "overall" : "pass",
+    "bestgrade" : "ict"
+    }
+]

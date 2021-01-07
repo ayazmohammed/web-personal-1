@@ -1,0 +1,51 @@
+[
+    {
+    "name": "olly",
+    "team": "uxd",
+    "lineManger" : "warren",
+    "yearsWorked" : 5
+    },
+    {
+    "name": "jack",
+    "team": "uxd",
+    "lineManger" : "olly",
+    "yearsWorked" : 2
+    },
+    {
+    "name": "dave",
+    "team": "uxd",
+    "lineManger" : "olly",
+    "yearsWorked" : 5
+    },
+    {
+    "name": "ayaz",
+    "team": "uxd",
+    "lineManger" : "olly",
+    "yearsWorked" : 7
+    },
+    {
+    "name": "eddie",
+    "team": "design",
+    "lineManger" : "warren",
+    "yearsWorked" : 7
+    },
+    {
+    "name": "sean",
+    "team": "design",
+    "lineManger" : "eddie",
+    "yearsWorked" : 3
+    },
+    {
+    "name": "ellis",
+    "team": "design",
+    "lineManger" : "eddie",
+    "yearsWorked" : 3
+    },
+    {
+    "name": "jess",
+    "team": "design",
+    "lineManger" : "eddie",
+    "yearsWorked" : 5
+    }
+
+]

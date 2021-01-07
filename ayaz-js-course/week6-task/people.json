@@ -1,12 +1,30 @@
 [ 
     {
-        "name": "Ayaz",
-        "age": 30,
-        "hair": "black"
+        "id": "A001",
+        "name" : "Adele",
+        "album" : 25,
+        "description" :"TEST 123Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores totam excepturi ab voluptate eos earum adipisci, ex deserunt qui ipsam, maxime expedita sapiente culpa iure cumque. Praesentium dolorum consequatur saepe?",
+        "image": "A001.jpg"
     },
     {
-        "name": "Ollie",
-        "age": 31,
-        "hair": "brown"
-    } 
+        "id": "A002",
+        "name" : "Ed Sheeran",
+        "album" : "Divide",
+        "description" :"Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores totam excepturi ab voluptate eos earum adipisci, ex deserunt qui ipsam, maxime expedita sapiente culpa iure cumque. Praesentium dolorum consequatur saepe?",
+        "image": "A002.jpg"
+    },
+    {
+        "id": "A003",
+        "name" : "Amy Winehouse",
+        "album" : "Back to Black",
+        "description" :"218 Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores totam excepturi ab voluptate eos earum adipisci, ex deserunt qui ipsam, maxime expedita sapiente culpa iure cumque. Praesentium dolorum consequatur saepe?",
+        "image": "A003.jpg"
+    },
+    {
+        "id": "A004",
+        "name" : "Robbie Williams",
+        "album" : "The Christmas Present",
+        "description" :"test test testLorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores totam excepturi ab voluptate eos earum adipisci, ex deserunt qui ipsam, maxime expedita sapiente culpa iure cumque. Praesentium dolorum consequatur saepe?",
+        "image": "A004.jpg"
+    }
 ]

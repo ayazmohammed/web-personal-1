@@ -1,0 +1,74 @@
+[
+    {
+    "id" : 1,
+    "name" : "ayaz",
+    "year" : 7,
+    "vegan" : "no",
+    "gender" : "male"
+    },
+    {
+    "id" : 2,
+    "name" : "yusuf",
+    "year" : 8,
+    "vegan" : "no",
+    "gender" : "male"
+    },
+    {
+    "id" : 3,
+    "name" : "sehar",
+    "year" : 7,
+    "vegan" : "yes",
+    "gender" : "female"
+    },
+    {
+    "id" : 4,
+    "name" : "olly",
+    "year" : 10,
+    "vegan" : "yes",
+    "gender" : "male"
+    },
+    {
+    "id" : 5,
+    "name" : "jess",
+    "year" : 9,
+    "vegan" : "yes",
+    "gender" : "female"
+    },
+    {
+    "id" : 6,
+    "name" : "jenny",
+    "year" : 7,
+    "vegan" : "no",
+    "gender" : "female"
+    },
+    {
+    "id" : 7,
+    "name" : "becky",
+    "year" : 7,
+    "vegan" : "no",
+    "gender" : "female"
+    },
+    {
+    "id" : 8,
+    "name" : "musa",
+    "year" : 7,
+    "vegan" : "no",
+    "gender" : "male"
+    },
+    {
+    "id" : 9,
+    "name" : "shabnem",
+    "year" : 7,
+    "vegan" : "no",
+    "gender" : "female"
+    },
+    {
+    "id" : 10,
+    "name" : "jo",
+    "year" : 7,
+    "vegan" : "no",
+    "gender" : "female"
+    }
+
+
+]

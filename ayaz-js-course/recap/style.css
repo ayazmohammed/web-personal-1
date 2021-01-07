@@ -1,0 +1,21 @@
+body{
+    text-align: center;
+}
+
+#resultsTable{
+    width: 80%;
+    margin: 0 auto;
+}
+
+#table{
+    display: none;
+    width: 100%;
+    flex-direction: column;
+}
+
+#resultsTable tr{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+

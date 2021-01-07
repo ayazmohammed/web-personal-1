@@ -7,12 +7,22 @@
     margin: 0;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Biryani:wght@200;400;700&display=swap');
+@font-face{
+        font-family: Effra_Md;
+        src: url(fonts/Effra_Md.ttf) format("truetype")
+}
+
+@font-face{
+    font-family: Effra_Light;
+    src: url(fonts/EffraLight-Regular.ttf) format("truetype")
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=Biryani:wght@200;400;700&display=swap'); */
 
 
 
 body{
-    font-family: 'Biryani', sans-serif;
+    font-family: 'Effra_Light', sans-serif;
     font-size: 10px;
     font-weight: 200;
  
@@ -20,9 +30,9 @@ body{
 }
 
 h1{
-    font-family: 'Biryani', sans-serif;
+    font-family: 'Effra_Md', sans-serif;
     font-weight: 700;
-    color: white;
+    color: #00392a;
     font-size: 2rem;
     line-height: 3rem;
     padding: 50px 0;
@@ -41,7 +51,7 @@ p {
 
 .container{
     width: 100%;
-    background-color: brown;
+    /* background-color: brown; */
     overflow: hidden;
 }
 
@@ -68,7 +78,7 @@ p {
     align-items: center;
     justify-content: space-between;
     padding: 20px 0px;
-    border-bottom: 0.2rem solid red;
+    border-bottom: 0.2rem solid #00392a;
 }
 
 .logo img{
@@ -212,14 +222,22 @@ p {
 }
 
 
+.menu a{
+    text-decoration: none;
+    color: #00392a;
+    font-family: Effra_Md;
+}
 
+.menu a:hover {
+    color:#2980b9;
+}
 
 
 .cta{
     width: 60%;
     padding: 1rem 10px;
     margin: 20px 0;
-    border: 3px solid red;
+    border: 3px solid #00392a;
     text-align: center;
     border-radius: 15px;
 }
@@ -232,10 +250,12 @@ p {
 
 
 .hero-bottom-line{
-    border-bottom: 0.2rem solid red;
+    border-bottom: 0.2rem solid #00392a;
     width: 100%;
     margin: 0 auto;
     margin-bottom: 20px;
+    background: rgb(0,57,42);
+background: linear-gradient(90deg, rgba(0,57,42,1) 0%, rgba(0,57,42,1) 36%, rgba(255,255,255,1) 100%);
     
 }
 
@@ -277,7 +297,7 @@ p {
     flex-wrap: wrap;
     width: 100%;
     padding: 1rem 2rem;
-    background-color: thistle;
+    background-color: #00392a;
     
    
 }
@@ -503,39 +523,43 @@ p {
 }
 
 
-/* Lightbox slider */
-
-
-
-
-
-
-
-
 
 /* Contact us */
 
 .contactUs-Section{
     width: 100%;
-    background-color: thistle;
     display: flex;
     flex-direction: column;
+    background-color: #00392a;
 }
 
+.form-container{
+    background-color: #00392a;
+    width: 100%;
+    padding-top: 20px;
+
+}
+
+.form-wrap{
+    width: 90%;
+    margin: 0 auto;
+}
 .contactUs-Section input {
     padding: 12px;
-    width: 50%;
-    margin-bottom: 25px;
-    font-family: 'Biryani', sans-serif;
+    width: 100%;
+    margin-bottom: 0px;
+    font-family: 'Effra_Light', sans-serif;
     font-size:16px;
+    border: 2px solid #00392a;
 }
 
 .contactUs-Section textarea {
     padding: 12px;
-    width: 50%;
-    margin-bottom: 25px;
-    font-family: 'Biryani', sans-serif;
+    width: 100%;
+    margin-bottom: 0px;
+    font-family: 'Effra_Light', sans-serif;
     font-size:16px;
+    border: 2px solid #00392a;
 }
 
 .contact-submit {
@@ -549,12 +573,12 @@ p {
 
 .contact-submit:hover {
     cursor: pointer;
-    background-color:yellow;
+    background-color:#00392a;
+    color: white;
 }
 
 .contactUs-details{
     width: 100%;
-    background-color: yellow;
     margin-bottom: 0%;
     display: flex;
     justify-content: space-between;
@@ -581,6 +605,68 @@ p {
     display:none;
 }
 
+
+/* footer */
+
+.backToTop{
+    position: relative;
+    display: flex;
+    
+}
+
+.backToTop-left{
+    width: 50%;
+    background-color: #00392a;
+    clip-path: polygon(0 0, 75% 0, 100% 100%, 0 100%);
+    padding: 25px;
+}
+
+.backToTop-right{
+    width: 50%;
+    background-color: #00392a;
+    clip-path: polygon(25% 0, 100% 0, 100% 100%, 0 100%);
+
+}
+
+.button{
+    width: 100px;
+    position: absolute;
+    text-align: center;
+    top: 17px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.arrow{
+    font-size: 30px;
+    color: #00392a;
+}
+
+.footerContent{
+    /* padding: 10px 0; */
+    text-align: center;
+    background-color: #00392a;
+}
+
+.footerContent p{
+    margin-bottom: 0px;
+    color: white;
+    padding-bottom: 20px;
+    font-size: 10px;
+}
+
+.footerContent ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.footerContent li{
+font-size: 30px;
+text-decoration: none;
+padding: 10px 10px;
+color: white;
+}
 
 /* IPAD P*/
 @media (min-width: 767px) {
@@ -609,6 +695,25 @@ p {
 
     .row3-image3{
         background-image: url("img/port/ipad-p/row3-i3-400x250-ipad.jpg");
+    }
+
+
+/* contact */
+
+    .contactUs-Section {
+        flex-direction: row;
+    }
+    .contactUs-details {
+        flex-direction: column;
+        width: 50%;
+    }
+
+    .contactUs-Section input{
+        width: 90%;
+    }
+
+    .contactUs-message{
+        width: 50%;
     }
 
 
@@ -826,9 +931,21 @@ p {
         flex-direction: row;
     }
 
+ 
+    .contactUs-details {
+    flex-direction: column;
+}
     .contactUs-details{
         width: 50%;
 
+    }
+
+    .contactUs-Section input {
+        width: 90%;
+    }
+    
+    .contactUs-Section textarea {
+        width: 90%;
     }
 
     .customer-detail {
