@@ -81,7 +81,8 @@ p {
 }
 
 .logo img{
-    width: 40%;
+    width: 200px;
+    height: auto;
 }
 
 .menu{
@@ -250,7 +251,7 @@ p {
 
 
 .cta{
-    width: 60%;
+    width: 30%;
     padding: 1rem 10px;
     margin: 20px 0;
     border: 3px solid #00392a;
@@ -260,7 +261,7 @@ p {
 
 .cta span{
     font-size: 1rem;
-    color: white;
+    color: #00392a;
 
 }
 
@@ -341,7 +342,7 @@ p {
 .row1-image1{
     
     width: 49%;
-    background-image: url(img/port/row1-i1-300x300.jpg);
+    background-image: url(img/portfolio/row1-i1-300x300.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -352,7 +353,7 @@ p {
 .row1-image2{
     
     width: 49%;
-    background-image: url(img/port/row1-i2-300x300.jpg);
+    background-image: url(img/portfolio/row1-i2-300x300.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -364,7 +365,7 @@ p {
     width: 100%;
     margin: 2% 0%;
     background: pink;
-    background-image: url("img/port/mobile/row1-i3-370x300-mobile.jpg");
+    background-image: url("img/portfolio/mobile/row1-i3-370x300-mobile.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -383,7 +384,7 @@ p {
 .row2-image1{  
     width: 100%;
     height: 49%;
-    background-image: url("img/port/mobile/row2-i1-230x150.jpg");
+    background-image: url("img/portfolio/mobile/row2-i1-230x150.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -392,7 +393,7 @@ p {
 .row2-image2{  
     width: 100%;
     height: 49%;
-    background-image: url("img/port/mobile/row2-i2-230x150.jpg");
+    background-image: url("img/portfolio/mobile/row2-i2-230x150.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -404,7 +405,7 @@ p {
     width: 49%;
     margin-left: 1%;
     background: pink;
-    background-image: url("img/port/row2-600x300.jpg");
+    background-image: url("img/portfolio/row2-600x300.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -423,7 +424,7 @@ p {
 .row3-image1{
     width: 70%;
     background: red;
-    background-image: url("img/port/row3-i1-400x250.jpg");
+    background-image: url("img/portfolio/row3-i1-400x250.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -433,7 +434,7 @@ p {
 .row3-image2{
     width: 28%;
     background: red;
-    background-image: url("img/port/row3-i2-400x250");
+    background-image: url("img/portfolio/row3-i2-400x250");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -441,7 +442,7 @@ p {
 .row3-image3{
     width: 100%;
     background: red;
-    background-image: url("img/port/row3-i3-400x250.jpg");
+    background-image: url("img/portfolio/row3-i3-400x250.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -465,7 +466,7 @@ p {
     width: 49%;
     background: red;
     margin-bottom: 2%;
-    background-image: url("img/port/row4-i1-300x300.jpg");
+    background-image: url("img/portfolio/row4-i1-300x300.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -475,7 +476,7 @@ p {
     width: 49%;
     background: red;
     margin-bottom: 2%;
-    background-image: url("img/port/mobile/row4-i2-300x300-mobile.jpg");
+    background-image: url("img/portfolio/mobile/row4-i2-300x300-mobile.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -483,7 +484,7 @@ p {
 .row4-image3{
     width: 100%;
     margin-bottom: 2%;
-    background-image: url("img/port/row4-600x400-1.jpg");
+    background-image: url("img/portfolio/row4-600x400-1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -503,7 +504,7 @@ p {
 .row4-image4{
     width: 100%;
     margin-bottom: 2%;
-    background-image: url("img/port/row4-600x400.jpg");
+    background-image: url("img/portfolio/row4-600x400.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -526,7 +527,7 @@ p {
     background: red;
     margin-bottom: 2%;
     margin-left: 2%;
-    background-image: url("img/port/row4-i6-300x300.jpg");
+    background-image: url("img/portfolio/row4-i6-300x300.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -684,28 +685,28 @@ color: white;
 
 
     .row1-image3 {
-        background-image: url(img/port/row1-i3-600x300.jpg);
+        background-image: url(img/portfolio/row1-i3-600x300.jpg);
         height: 350px;
     }
 
     .row2-image1 {
-        background-image: url(img/port/ipad-p/row2-i1-410x150-ipad.jpg);
+        background-image: url(img/portfolio/ipad-p/row2-i1-410x150-ipad.jpg);
     }
 
     .row2-image2 {
-        background-image: url(img/port/ipad-p/row2-i2-410x150-ipad.jpg);
+        background-image: url(img/portfolio/ipad-p/row2-i2-410x150-ipad.jpg);
     }
 
     .row4-image6 {
-        background-image: url(img/port/ipad-p/row4-i6-300x300-ipad.jpg);
+        background-image: url(img/portfolio/ipad-p/row4-i6-300x300-ipad.jpg);
     }
 
     .row4-image2 {
-        background-image: url(img/port/ipad-p/row4-i2-300x300-ipad.jpg);
+        background-image: url(img/portfolio/ipad-p/row4-i2-300x300-ipad.jpg);
     }
 
     .row3-image3{
-        background-image: url("img/port/ipad-p/row3-i3-400x250-ipad.jpg");
+        background-image: url("img/portfolio/ipad-p/row3-i3-400x250-ipad.jpg");
     }
 
 
@@ -741,11 +742,12 @@ color: white;
     
     
     .logo img{
-        width: 30%;
+        width: 250px;
+        height: auto;
     }
     
     .menu{
-        width: 50%;
+        width: 40%;
         display: block;
     }
     
@@ -790,20 +792,7 @@ color: white;
     
     
     
-    .cta{
-        width: 60%;
-        padding: 1rem 10px;
-        margin: 20px 0;
-        border: 3px solid red;
-        text-align: center;
-        border-radius: 15px;
-    }
-    
-    .cta span{
-        font-size: 1rem;
-        color: white;
-    
-    }
+
     
     
     /* ABOUT ME */
@@ -832,6 +821,8 @@ color: white;
         height: auto;
     
     }
+
+  
     
     /* gallery */
  
@@ -847,14 +838,14 @@ color: white;
         width: 24%;
         margin: 1% 0%;
         height: auto;
-        background-image: url(img/port/row1-i2-300x300.jpg);
+        background-image: url(img/portfolio/row1-i2-300x300.jpg);
     }
 
     .row1-image3{
         width: 50%;
         margin: 1% 0%;
         height: auto;
-        background-image: url(img/port/row1-i3-600x300.jpg);
+        background-image: url(img/portfolio/row1-i3-600x300.jpg);
     }
     
     /* gallery - ROW2 */
@@ -866,14 +857,14 @@ color: white;
     .row2-image1{  
         width: 100%;
         height: 48%;
-        background-image: url(img/port/row2-i1-600x150.jpg);
+        background-image: url(img/portfolio/row2-i1-600x150.jpg);
 
     }
     
     .row2-image2{  
         width: 100%;
         height: 48%;
-        background-image: url("img/port/row2-i2-600x150.jpg");
+        background-image: url("img/portfolio/row2-i2-600x150.jpg");
     } 
     
     
@@ -900,7 +891,7 @@ color: white;
     .row3-image3{
         width: 32.5%;
         margin-top: 0%;
-        background-image: url("img/port/row3-i3-400x250.jpg");
+        background-image: url("img/portfolio/row3-i3-400x250.jpg");
     }
     
     
@@ -925,7 +916,7 @@ color: white;
     .row4-image2{
         width: 49%;
         height: 300px;
-        background-image: url("img/port/row4-i2-300x300.jpg");
+        background-image: url("img/portfolio/row4-i2-300x300.jpg");
 
     }
 
@@ -944,7 +935,7 @@ color: white;
     .row4-image6{
         width: 49%;
         height: 300px;
-        background-image: url("img/port/row4-i6-300x300.jpg");
+        background-image: url("img/portfolio/row4-i6-300x300.jpg");
     }
 
 /* contact Us */
