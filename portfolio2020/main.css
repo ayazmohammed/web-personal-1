@@ -433,8 +433,7 @@ p {
 }
 .row3-image2{
     width: 28%;
-    background: red;
-    background-image: url("img/portfolio/row3-i2-400x250");
+    background-image: url("img/portfolio/mobile/row3-i2-200x250-mobile.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -513,9 +512,8 @@ p {
 
 .row4-image5{
     width: 28%;
-    background: red;
     margin-bottom: 2%;
-    background-image: url(img/300x200.jpg);
+    background-image: url(img/portfolio/row4-i5-300x300-moneyplus.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -524,7 +522,6 @@ p {
 
 .row4-image6{
     width: 70%;
-    background: red;
     margin-bottom: 2%;
     margin-left: 2%;
     background-image: url("img/portfolio/row4-i6-300x300.jpg");
@@ -887,6 +884,7 @@ color: white;
     }
     .row3-image2{
         width: 33%;
+        background-image: url("img/portfolio/row3-i2-400x250.jpg");
     }
     .row3-image3{
         width: 32.5%;
