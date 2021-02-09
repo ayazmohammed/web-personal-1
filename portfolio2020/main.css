@@ -223,6 +223,25 @@ p {
 
 .hero-text{
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-text h1{
+    padding: 0px;
+    font-size: 2.5rem;
+}
+
+.hero-text span{
+    background-color: #00392a;
+    color: #ffffff;
+    /* padding: 10px */
+}
+
+.hero-text p{
+    padding: 0px;
+    margin-bottom: 0px;
 }
 
 .hero-heading{
