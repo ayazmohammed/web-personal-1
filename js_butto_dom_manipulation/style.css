@@ -1,0 +1,213 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+@font-face{
+        font-family: Gotham;
+        src: url(font/gotham-Bold.ttf) format("truetype");
+}
+
+@font-face{
+    font-family: Gotham-light;
+    src: url(font/gotham-light.otf) format("truetype")
+}
+
+strong{
+    font-family: Gotham;
+    
+}
+
+
+button{
+    display: block;
+    margin: 20px auto;
+    background: #ff8400;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 0;
+    padding: .8em 1.3em;
+}
+
+button:hover{
+    background: #9c4e18;
+}
+
+
+body{
+    font-family: 'Gotham', sans-serif;
+    font-weight: 200;
+    letter-spacing: 1px;
+    font-size: 10px;
+    background-color: #414141;
+}
+
+
+h1{
+    font-family: "Gotham","Arial Black",Arial,Arial,sans-serif; 
+    font-size: 1.5rem;
+    line-height: 2rem;
+    padding-bottom: 1rem;
+    padding-top: 3rem;
+}
+
+h2{
+    font-family: "Gotham","Arial Black",Arial,Arial,sans-serif; 
+    font-size: 1rem;
+    line-height: 2rem;
+    padding-bottom: 1rem;
+}
+
+
+p{
+    font-family: "Gotham-light","Arial Black",Arial,Arial,sans-serif; 
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+    color: #555759;
+    padding-bottom: 1rem;
+}
+
+
+.container{
+    display: none;
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* z-index: 1; */
+}
+
+.pop-up{
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #ecebeb;
+    display: flex;
+    flex-direction: column;
+    font-family: "Gotham","Arial Black",Arial,Arial,sans-serif; 
+    position: relative;
+}
+
+.product_image{
+    width: 100%;
+    background-color: white;
+}
+
+
+.product_image img{
+    width: 100%;
+}
+
+
+.popup-close {
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    cursor: pointer;
+}
+
+.product_text{
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    padding: 0px 1rem;
+}
+
+.email{
+    display: flex;
+    width: 100%;
+    margin-bottom: 1rem;
+    flex-direction: column;
+}
+
+.email_fill{
+    width: 100%;
+    padding: 1rem 1rem 1rem 0rem;
+}
+
+.email_fill p{
+    padding-bottom: 0rem;
+    font-size: 1rem;
+}
+
+.cta{
+    width: 100%;
+    background: #ff8400;
+    cursor: pointer;
+    text-align: center;
+    padding: 1rem;
+
+}
+
+.cta p{
+    padding-bottom: 0rem;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.cta:hover{
+    background: #9c4e18;
+}
+
+
+/* IPAD L & DESKTOP*/
+@media (min-width: 992px) {
+
+
+
+    .container{
+        max-width: 1200px;
+        margin: 0 auto;
+        display: none;
+        height: 100vh;
+        display: none;
+    }
+    
+    .pop-up{
+       flex-direction: row;
+    }
+    
+    .product_image{
+        width: 50%;
+        background-color: white;
+    }
+
+    .product_image img {
+        width: 90%;
+    }
+    
+    .popup-close {
+        position: absolute;
+        top: 25px;
+        right: 35px;
+        cursor: pointer;
+    }
+    
+    .product_text{
+        width: 50%;
+        background-color: white;
+        padding-right: 3rem;
+        text-align: left;
+        padding-right: 1rem;
+    }
+
+    .email{
+        flex-direction: row;
+    }
+
+    .email_fill{
+        width: 60%;
+    }
+    
+    .cta{
+        width: 40%;
+    }
+    
+}
+
+
