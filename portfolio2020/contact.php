@@ -12,5 +12,5 @@ $msg = "You have a new message!\nFrom $name, $email, $phone with the following m
 $msg = wordwrap($msg, 70);
 
 // send email
-mail("ayazm@activewin.co.uk", "Portfolio Message", $msg);
+mail("04.ayaz@gmail.com", "Portfolio Message", $msg);
 
